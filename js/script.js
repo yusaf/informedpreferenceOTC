@@ -240,7 +240,7 @@ reset_all();
 		keyEl.show().find("*:not(.title)").remove();
 		
 		var key = $(this).data("key");
-		keyEl.append('<div style="padding:5px;">'+questions[key].question+'</div>');
+		keyEl.append('<div style="padding:10px;">'+questions[key].question+'</div>');
 		
 		var colors = shuffle(color_array);
 		var response_colors = {};
