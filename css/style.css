@@ -232,7 +232,7 @@ table td{
 	left:0;
 }
 .person .layer-1{
-	background:url("/img/cutout.png");
+	background:url("../img/cutout.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
