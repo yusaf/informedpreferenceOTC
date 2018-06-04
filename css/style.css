@@ -217,8 +217,25 @@ table td{
 }
 
 @media only screen and (max-width: 1440px) {
+	html{
+		font-size:8px;
+	}
 	.person{
 		width:50px;
 		height:100px;
+	}
+	#key .key{
+		margin:5px 3px;
+	}
+	#key .square{
+		width:15px;
+		height:15px;
+		margin: 0 3px -4px 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.person{
+		width:30px;
+		height:60px;
 	}
 }
